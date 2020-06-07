@@ -31,7 +31,7 @@ if ([ $dirtybit -eq 1 ])
     lookandfeeltool -a $update
     dirtybit=0
     echo $update > $HOME/.config/reverso/colormode.rc
-    notify-send "The theme has been changed to $update "
+    notify-send -i ~/.config/reverso/logo.jpg -a Reverso "The theme has been changed to $update "
     fi
 # sleep for 20 mins
 sleep 20m
