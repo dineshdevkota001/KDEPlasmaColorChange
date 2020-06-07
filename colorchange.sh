@@ -35,4 +35,4 @@ if ([ $dirtybit -eq 1 ])
     fi
 # sleep for 20 mins
 sleep 20m
-done
+done &
