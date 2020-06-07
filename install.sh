@@ -8,5 +8,6 @@ cp -r *mode $HOME/.local/share/plasma/look-and-feel/
 cp colorchange.sh $HOME/.config/autostart/
 
 # copy color setting to a position
-# mkdir $HOME/.local/share/Kchange
-# cp colorsetting.sh $HOME/.local/share/Kchange/
+mkdir $HOME/.config/reverso/
+echo lightmode > $HOME/.config/reverso/colormode.rc
+cp logo.jpg $HOME/.config/reverso/
